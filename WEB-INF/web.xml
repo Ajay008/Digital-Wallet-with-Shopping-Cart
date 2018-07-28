@@ -1,0 +1,230 @@
+<?xml version="1.0"  encoding="UTF-8" ?>
+ 
+<web-app>
+    
+    
+    <servlet>
+        <servlet-name>signUp2</servlet-name>
+        <servlet-class>signUp2</servlet-class>
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>signUp2</servlet-name>
+        <url-pattern>/signUp2</url-pattern>  
+    </servlet-mapping>
+
+	
+    
+    <servlet>
+        <servlet-name>logIn2</servlet-name>
+        <servlet-class>logIn2</servlet-class>
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>logIn2</servlet-name>
+        <url-pattern>/logIn2</url-pattern>  
+    </servlet-mapping>
+
+    
+	
+	<servlet>
+        <servlet-name>nameInitials</servlet-name>
+        <servlet-class>nameInitials</servlet-class>
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>nameInitials</servlet-name>
+        <url-pattern>/nameInitials</url-pattern>  
+    </servlet-mapping>          
+	
+	
+	
+	<servlet>
+        <servlet-name>forgot2</servlet-name>
+        <servlet-class>forgot2</servlet-class>
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>forgot2</servlet-name>
+        <url-pattern>/forgot2</url-pattern>  
+    </servlet-mapping> 
+	                         
+	
+	
+	
+	<servlet>
+        <servlet-name>forgot4</servlet-name>
+        <servlet-class>forgot4</servlet-class>
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>forgot4</servlet-name>
+        <url-pattern>/forgot4</url-pattern>  
+    </servlet-mapping> 
+	  
+	 
+	 
+	<servlet>
+        <servlet-name>amtw2</servlet-name>
+        <servlet-class>amtw2</servlet-class>
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>amtw2</servlet-name>
+        <url-pattern>/amtw2</url-pattern>  
+    </servlet-mapping> 
+	  
+	  
+	  
+	<servlet>
+        <servlet-name>smtb2</servlet-name>
+        <servlet-class>smtb2</servlet-class>
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>smtb2</servlet-name>
+        <url-pattern>/smtb2</url-pattern>  
+    </servlet-mapping>          
+	  
+	
+	<servlet>
+        <servlet-name>rmff2</servlet-name>
+        <servlet-class>rmff2</servlet-class>
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>rmff2</servlet-name>
+        <url-pattern>/rmff2</url-pattern>  
+    </servlet-mapping>               
+	
+
+	
+	<servlet>
+        <servlet-name>smtf2</servlet-name>
+        <servlet-class>smtf2</servlet-class>
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>smtf2</servlet-name>
+        <url-pattern>/smtf2</url-pattern>  
+    </servlet-mapping>    
+	
+                
+	         
+	<servlet>
+        <servlet-name>notification2</servlet-name>
+        <servlet-class>notification2</servlet-class>
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>notification2</servlet-name>
+        <url-pattern>/notification2</url-pattern>  
+    </servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>notificationBadge</servlet-name>
+        <servlet-class>notificationBadge</servlet-class>
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>notificationBadge</servlet-name>
+        <url-pattern>/notificationBadge</url-pattern>  
+    </servlet-mapping>
+	  
+	  
+	<servlet>
+        <servlet-name>notificationReadUpdate</servlet-name>
+        <servlet-class>notificationReadUpdate</servlet-class>
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>notificationReadUpdate</servlet-name>
+        <url-pattern>/notificationReadUpdate</url-pattern>  
+    </servlet-mapping>
+	
+	
+	
+	<servlet>
+        <servlet-name>loadBalance</servlet-name>
+        <servlet-class>loadBalance</servlet-class>
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>loadBalance</servlet-name>
+        <url-pattern>/loadBalance</url-pattern>  
+    </servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>addCard</servlet-name>
+        <servlet-class>addCard</servlet-class>
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>addCard</servlet-name>
+        <url-pattern>/addCard</url-pattern>  
+    </servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>profile2</servlet-name>
+        <servlet-class>profile2</servlet-class>
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>profile2</servlet-name>
+        <url-pattern>/profile2</url-pattern>  
+    </servlet-mapping>
+	
+	
+	                    
+	<servlet>
+        <servlet-name>loadSummary</servlet-name>
+        <servlet-class>loadSummary</servlet-class>
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>loadSummary</servlet-name>
+        <url-pattern>/loadSummary</url-pattern>                   
+    </servlet-mapping>
+	
+	
+	         
+	<servlet>
+        <servlet-name>cart3</servlet-name>
+        <servlet-class>cart3</servlet-class>
+    </servlet>
+    <servlet-mapping> 
+        <servlet-name>cart3</servlet-name>
+        <url-pattern>/cart3</url-pattern>                   
+    </servlet-mapping>
+	
+	        
+	
+	 
+				   
+	<filter>
+		<filter-name>commonFilter1</filter-name>
+        <filter-class>commonFilter1</filter-class>
+	</filter>
+	
+	<filter-mapping>
+		<filter-name>commonFilter1</filter-name>
+		
+        <url-pattern>/amtw.jsp</url-pattern>
+        <url-pattern>/home.jsp</url-pattern>
+		<url-pattern>/notification.jsp</url-pattern>
+        <url-pattern>/passbook.jsp</url-pattern>
+        <url-pattern>/passbookContent.jsp</url-pattern>
+        <url-pattern>/profile.jsp</url-pattern>
+        <url-pattern>/rmff.jsp</url-pattern>
+        <url-pattern>/smtb.jsp</url-pattern>
+        <url-pattern>/smtf.jsp</url-pattern>
+        
+		<url-pattern>/addCard</url-pattern>
+        <url-pattern>/amtw2</url-pattern>
+        <url-pattern>/loadBalance</url-pattern>
+        <url-pattern>/loadSummary</url-pattern>
+        <url-pattern>/nameInitials</url-pattern>
+        <url-pattern>/notification2</url-pattern>
+        <url-pattern>/notificationBadge</url-pattern>
+        <url-pattern>/notificationReadUpdate</url-pattern>
+        <url-pattern>/profile2</url-pattern>
+        <url-pattern>/rmff2</url-pattern>
+        <url-pattern>/smtb2</url-pattern>
+        <url-pattern>/smtf2</url-pattern> 
+	</filter-mapping>
+	   
+   
+      
+</web-app>   
+       
+	              
+	   
+     
+         
