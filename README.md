@@ -15,7 +15,3 @@
 
 ### Project By :
 > * Ajay Chaudhary
-
-
-### Author :
-> * Ajay Chaudhary
